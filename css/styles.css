@@ -40,6 +40,16 @@ ul {
 .section {
   padding: 0 0 94px;
 }
+.tittle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
 /* ----- HEADER ----- */
 .head_container .container {
   display: flex;
@@ -54,6 +64,9 @@ ul {
   font-size: 26px;
   font-family: var(--secondary-font);
   font-weight: 700;
+  font-style: normal;
+  line-height: 31px;
+  letter-spacing: 0.03em;
   margin-left: 215px;
   margin-right: 95px;
 }
@@ -178,6 +191,10 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.main_section_5 {
+  text-align: center;
+  padding-top: 94px;
+}
 /* ----- END MAIN MAIN ----- */
 
 /* ----- PORTFOLIO MAIN ----- */
@@ -255,9 +272,9 @@ ul {
 
 .footer_adress {
   margin-left: 215px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .footer_adress ul li:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 9px;
 }
 /* -----END FOOTER ----- */
