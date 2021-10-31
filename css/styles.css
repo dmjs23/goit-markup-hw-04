@@ -97,15 +97,16 @@ ul {
 /* ----- END HEADER ----- */
 
 /* ----- MAIN MAIN ----- */
-.main_section_1 {
-  background-color: var(--main-bacgraund-color);
+.main_section_1 .container {
+  background-image: url('../images/main_bacgraund.jpg');
 }
 .section_1_items {
-  height: 600px;
+  min-height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: rgba(47, 48, 58, 0.4);
 }
 .section_1_items h1 {
   color: #fff;
@@ -134,9 +135,7 @@ ul {
 .button:active {
   transform: scale(0.95);
 }
-.main_section_2 {
-  padding-top: 94px;
-}
+
 .main_section_2 ul {
   display: inline-flex;
   list-style: none;
@@ -150,7 +149,6 @@ ul {
 }
 .main_section_3 {
   text-align: center;
-  /* padding-top: 94px; */
 }
 .main_section_3 ul {
   display: flex;
@@ -162,7 +160,6 @@ ul {
 .main_section_3 div {
   margin: auto;
   width: 1170px;
-  /* height: 385px; */
 }
 .main_section_4 {
   background-color: var(--secondary-bacgraund-color);
@@ -177,6 +174,9 @@ ul {
   background-color: #fff;
   margin: 10px;
   height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 /* ----- END MAIN MAIN ----- */
 
@@ -193,21 +193,21 @@ ul {
   height: 38px;
   margin-right: 8px;
   padding: 6px 22px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
   background-color: #f5f4fa;
-  /* font designed */
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
+  border-radius: 4px;
+  border: 0 solid #f5f4fa;
 }
 .btn_filtr_portlofio:hover,
 .btn_filtr_portlofio:focus {
   background-color: var(--main-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio_section_2 .container {
@@ -221,6 +221,17 @@ ul {
 }
 .portfolio_section_2 li {
   margin: 15px;
+  border: 1px solid #eee;
+}
+.portfolio_section_2 li p {
+  margin: 4px 24px 20px;
+}
+.portfolio_section_2 li h3 {
+  margin: 20px 24px 0;
+}
+.portfolio_section_2 li:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 /* ----- END PORTFOLIO MAIN ----- */
 
