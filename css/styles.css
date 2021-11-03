@@ -228,11 +228,19 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.icon-team {
+/* .icon-team {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: #fff;
+} */
+.icon_socjal_team {
+  /* --color4: #fff; */
+  /* --color3: rgba(255, 255, 255, 0.1); */
+}
+.icon_socjal_team:hover,
+.icon_socjal_team:focus {
+  --color3: var(--main-color);
 }
 .icon-team:hover,
 .icon-team:focus {
@@ -251,7 +259,7 @@ ul {
   margin: 0 215px;
 }
 .icon-client {
-  border: 1px solid #afb1b8;
+  /* border: 1px solid #afb1b8; */
   box-sizing: border-box;
   border-radius: 4px;
   margin: 0 15px;
@@ -357,5 +365,13 @@ ul {
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-bottom: 20px;
+}
+.icon_footer {
+  --color4: #fff;
+  --color3: rgba(255, 255, 255, 0.1);
+}
+.icon_footer:hover,
+.icon_footer:focus {
+  --color3: var(--main-color);
 }
 /* -----END FOOTER ----- */
