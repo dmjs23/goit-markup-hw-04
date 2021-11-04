@@ -123,6 +123,7 @@ ul {
 .menu-item:hover,
 .menu-item:focus {
   color: var(--main-color);
+  --color5:var(--main-color);
 }
 /* ----- END HEADER ----- */
 
@@ -261,10 +262,6 @@ ul {
 .icon-client:focus,
 .icon-client:hover {
   border: 1px solid var(--main-color);
-}
-
-.icon_client_logo:focus,
-.icon_client_logo:hover{
   --color4: var(--main-color);
 }
 
