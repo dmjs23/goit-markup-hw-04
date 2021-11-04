@@ -123,7 +123,7 @@ ul {
 .menu-item:hover,
 .menu-item:focus {
   color: var(--main-color);
-  --color5:var(--main-color);
+  --color5: var(--main-color);
 }
 /* ----- END HEADER ----- */
 
@@ -233,7 +233,7 @@ ul {
 .icon_socjal_team:hover,
 .icon_socjal_team:focus {
   --color3: var(--main-color);
-  --color4: #fff; */
+  --color4: #fff;
 }
 
 .main_section_5 {
